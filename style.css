@@ -58,7 +58,7 @@ input:focus{
     
     box-shadow: 0px 7px 21px -7px red;
     
-    animation: buzz 0.5s 2 ease-in-out;
+    animation: buzz 0.4s 2 ease-in-out;
     
 }
 @keyframes buzz {
@@ -81,6 +81,8 @@ input:hover{
 
     border-bottom: 2px solid;
     border-color: purple;
+    transform: scale(105%);
+    transition: 0.3s;
 }
 
 input[type="button"]{
@@ -94,6 +96,7 @@ input[type="button"]{
 input[type="button"]:hover{
     background-color:greenyellow;
     transition: 0.6s;
+    transform: scale(110%);
 }
 
 a{
