@@ -29,6 +29,12 @@ if((pwd1.value != "" )&& (pwd2.value != "")){
           popup.innerHTML = "passwords do not match !"
    }
 }
+else{
+     pwd1.classList.remove("red")
+     pwd1.classList.remove("green")
+     pwd2.classList.remove("red")
+     pwd2.classList.remove("green")
+}
 })
 
 pwd1.addEventListener("change",(e)=>{
@@ -49,7 +55,13 @@ pwd1.addEventListener("change",(e)=>{
             pwd2.classList.add("red")
             pwd2.classList.remove("green")
             pwd2.classList.add("red")
-            popup.innerHTML = "passwords do not match"
+            popup.innerHTML = "passwords do not match !"
    }
+}
+else{
+     pwd1.classList.remove("red")
+     pwd1.classList.remove("green")
+     pwd2.classList.remove("red")
+     pwd2.classList.remove("green")
 }
   })
