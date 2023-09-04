@@ -101,11 +101,15 @@ input[type="button"]:hover{
 a{
     text-decoration: none;
     color: purple;
-    margin-top: 25px;
     text-align: end;
+
 }
 a:hover{
     color: rgb(117, 180, 24);
     transition: 0.3s;
 }
 
+.hyper{
+    margin-top: 25px;
+    text-align: end;
+}
