@@ -6,7 +6,6 @@ var btn = document.querySelector(".btn")
 var popup = document.querySelector(".popup")
 
 function run(e){
-
 if((pwd1.value != "" )&& (pwd2.value != "")){
 
    if(pwd1.value === pwd2.value)
@@ -15,9 +14,9 @@ if((pwd1.value != "" )&& (pwd2.value != "")){
         pwd1.classList.add("green")
         pwd2.classList.remove("red")
         pwd2.classList.add("green")
+          
         popup.innerHTML = ""
-        localStorage.setItem("name",namee.value)
-        localStorage.setItem("email",email.value)
+      
    }
         
    else{
@@ -26,6 +25,8 @@ if((pwd1.value != "" )&& (pwd2.value != "")){
           pwd2.classList.remove("green")
           pwd2.classList.add("red")
           popup.innerHTML = "passwords do not match !"
+         
+
    }
 }
 else{
